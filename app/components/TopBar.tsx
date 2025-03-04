@@ -9,7 +9,6 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Image from 'next/image';
-import logoCA from '../../public/logo2.png';
 import { useRouter } from 'next/navigation';
 
 export default function TopBar() {
@@ -41,7 +40,18 @@ export default function TopBar() {
           }}
           onClick={() => router.push('/')}
         >
-          <Image src={logoCA} alt="GRM Logo" height={25} />
+          <Box
+        sx={{
+          width: 40,
+          height: 40,
+          backgroundImage: `url("https://images.squarespace-cdn.com/content/5aceb3075ffd20be26cc1d42/570069cb-d8ec-4795-a21c-026417e597e9/logo.PNG?content-type=image%2Fpng")`,
+          backgroundSize: 'contain',
+          backgroundPosition: 'center',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      ></Box>
         </Box>
         <Typography 
           variant="h6" 

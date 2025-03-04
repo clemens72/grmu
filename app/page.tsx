@@ -6,7 +6,6 @@ import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import NextLink from 'next/link';
 import Copyright from './components/Copyright';
-import heroimg from '../public/banner.jpg';
 
 export default function PublicPage() {
   return (
@@ -16,7 +15,7 @@ export default function PublicPage() {
           width: '100%',
           height: '70vh',
           position: 'relative',
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${heroimg.src})`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.squarespace-cdn.com/content/5aceb3075ffd20be26cc1d42/bda9d11e-7cac-4df5-b917-d3161e0c1ca5/banner.jpg")`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           display: 'flex',
