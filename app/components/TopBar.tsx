@@ -41,7 +41,7 @@ export default function TopBar() {
           }}
           onClick={() => router.push('/')}
         >
-          <Image src={logoCA} alt="Class Acts Logo" height={25} />
+          <Image src={logoCA} alt="GRM Logo" height={25} />
         </Box>
         <Typography 
           variant="h6" 
@@ -80,7 +80,7 @@ export default function TopBar() {
           open={Boolean(anchorEl)}
           onClose={handleClose}
         >
-          <MenuItem onClick={() => handleMenuItemClick('/auth/signin')}>Sign In</MenuItem>
+          <MenuItem onClick={() => handleMenuItemClick('/auth/signin')}>Resources</MenuItem>
         </Menu>
       </Toolbar>
     </AppBar>

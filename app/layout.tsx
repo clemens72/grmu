@@ -23,7 +23,7 @@ const NAVIGATION: Navigation = [
 ];
 
 const BRANDING = {
-  title: 'Class Acts Entertainment',
+  title: 'Green Room Meetup',
 };
 
 const AUTHENTICATION = {
