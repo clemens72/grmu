@@ -35,14 +35,13 @@ export default function ContactPage() {
   };
 
   return (
-    <Box sx={{ mt: -2 }}>
+    <Box>
       {/* Hero Section */}
       <Box
         sx={{
           bgcolor: 'primary.light',
           color: 'white',
           py: 8,
-          mt: 8,
         }}
       >
         <Container maxWidth="lg">

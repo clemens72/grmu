@@ -28,7 +28,7 @@ export default function TopBar() {
   };
 
   return (
-    <AppBar position="fixed">
+    <AppBar position="sticky">
       <Toolbar>
         <Box 
           sx={{ 
@@ -90,8 +90,8 @@ export default function TopBar() {
           onClose={handleClose}
         >
           <MenuItem onClick={() => handleMenuItemClick('/articles')}>Articles</MenuItem>
-          <MenuItem onClick={() => handleMenuItemClick('/resources')}>Resources</MenuItem>
-          <MenuItem onClick={() => handleMenuItemClick('/calendar')}>Events</MenuItem>
+          {/* <MenuItem onClick={() => handleMenuItemClick('/resources')}>Resources</MenuItem>
+          <MenuItem onClick={() => handleMenuItemClick('/calendar')}>Events</MenuItem> */}
           <MenuItem onClick={() => handleMenuItemClick('/contact')}>Contact</MenuItem>
           <MenuItem onClick={() => handleMenuItemClick('/studio')}>Studio</MenuItem>
         </Menu>
