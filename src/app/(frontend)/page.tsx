@@ -68,7 +68,7 @@ export default function PublicPage() {
             Meet ups, events and knowledge for songwriters and musicians in central Ohio
           </Typography>
           <form
-            action="https://formsubmit.co/greenroommeetup@gmail.com"
+            action="https://formsubmit.co/847707c7485de0aaf8e8672b04c45e63"
             method="POST"
             onSubmit={handleSubmit}>
 
