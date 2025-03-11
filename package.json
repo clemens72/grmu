@@ -7,32 +7,15 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "post-update": "echo \"codesandbox preview only, need an update\" && pnpm update --latest",
-    "predev": "npm run typegen",
-    "prebuild": "npm run typegen",
-    "typegen": "sanity schema extract --path=./src/sanity/extract.json && sanity typegen generate"
+    "post-update": "echo \"codesandbox preview only, need an update\" && pnpm update --latest"
   },
   "dependencies": {
-    "@emotion/cache": "latest",
-    "@emotion/react": "latest",
-    "@emotion/styled": "latest",
     "@mui/icons-material": "latest",
-    "@mui/lab": "^6.0.0-beta.28",
     "@mui/material": "latest",
     "@mui/material-nextjs": "latest",
-    "@mui/x-date-pickers": "^7.23.2",
-    "@sanity/icons": "^3.7.0",
-    "@sanity/image-url": "^1.1.0",
-    "@sanity/vision": "^3.78.1",
-    "dayjs": "^1.11.13",
     "next": "^15.0.0",
-    "next-auth": "5.0.0-beta.25",
-    "next-sanity": "^9.9.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "sanity": "^3.78.1",
-    "styled-components": "^6.1.15",
-    "zod": "^3.24.1"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
